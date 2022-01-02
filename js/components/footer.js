@@ -1,4 +1,4 @@
-class BannerView extends HTMLElement {
+class FooterView extends HTMLElement {
   constructor () {
     super()
     this.shadow = this.attachShadow({ mode: 'open' })
@@ -16,13 +16,12 @@ class BannerView extends HTMLElement {
     return `
       <link rel="stylesheet" href="/style/index.css">
 
-      <div class="banner">
-        <button class="banner-btn">BELI DI SAMSUNG.COM</button>
-        <button class="banner-btn">BELI DI TOKO TERDEKAT</button>
-      </div>
+      <footer>
+        RedComm - Front End Developer Test
+      </footer>
     `
   }
 }
 
 
-customElements.define('banner-view', BannerView)
+customElements.define('footer-view', FooterView)

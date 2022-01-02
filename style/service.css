@@ -1,88 +1,98 @@
-.promo {
+.service {
   width: 80vw;
   margin: auto;
   padding: 30px 45px;
-  background-color: #f3f1e9;
+  background-color: white;
 }
 
-.promo-title {
+.service-title {
   line-height: 2rem;
 }
 
-.promo-title h3 {
+.service-title h3 {
   font-size: 2rem;
   font-weight: 600;
 }
 
-.promo-cards {
+.service-cards {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.promo-card {
+.service-card {
   flex: 0 1 24%;
   transition: 0.3s;
 }
 
-.promo-card:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-.promo-card-img {
+.service-card-img {
   width: 100%;
   height: 150px;
-  background-color: #4c51bf;
+  background-color: #667eea;
 }
-
-.promo-card-title {
-  margin: 20px 0;
-  text-align: center;
-  font-size: 1rem;
+.service-card-tag,
+.service-card-title {
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
-.promo-card-btn {
+.service-card-text {
+  font-size: 0.7rem;
+}
+
+.service-card-tag {
+  color: #4cc1db;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.service-card-title {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.service-card-btn {
   width: 100%;
-  margin: 20px 0;
+  margin: 30px 0;
   display: flex;
   justify-content: center;
 }
 
-.promo-card-btn button {
+.service-card-btn button {
   border: 1px solid #71706c;
   border-radius: 20px;
   padding: 5px 20px;
   color: #71706c;
   cursor: pointer;
   transition: 0.3s;
+  background-color: white;
 }
 
-.promo-card-btn button:hover {
+.service-card-btn button:hover {
   background-color: #dad8d2;
 }
 
 @media screen and (max-width: 1024px) {
-  .promo {
+  .service {
     width: 90vw;
   }
 
-  .promo-card {
+  .service-card {
     flex: 0 1 calc(50% - 1rem);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .promo {
+  .service {
     width: 90vw;
   }
 
-  .promo-title h3 {
+  .service-title h3 {
     font-size: 1.5rem;
   }
 
-  .promo-card {
+  .service-card {
     flex: 0 1 100%;
   }
 }

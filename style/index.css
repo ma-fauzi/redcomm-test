@@ -1,6 +1,18 @@
 @import "reset-style.css";
-@import "default-style.css";
 @import "navbar.css";
 @import "mobile-menu-icon.css";
 @import "banner.css";
 @import "promo.css";
+@import "video-promo.css";
+@import "service.css";
+@import "footer.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}

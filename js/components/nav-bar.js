@@ -9,11 +9,17 @@ class NavBar extends HTMLElement {
   }
 
   render () {
-    this.shadow.innerHTML = `
+    this.shadow.innerHTML = this.renderElement()
+
+    this.openMenu()
+  }
+
+  renderElement () {
+    return `
       <link rel="stylesheet" href="/style/index.css">
       <nav class="navbar">
-        <div>
-          Home
+        <div class="navbar-home">
+          <img src="assets/house.svg" alt="home-icon">
         </div>
         <div>
           <ul id="navbar-list" class="navbar-list">
@@ -30,8 +36,6 @@ class NavBar extends HTMLElement {
         </div>
       </nav>
     `
-
-    this.openMenu()
   }
 
   openMenu () {

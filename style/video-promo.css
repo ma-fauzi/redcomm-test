@@ -1,0 +1,41 @@
+.video-promo {
+  width: 80vw;
+  margin: auto;
+  padding: 45px 20px;
+}
+
+.video-promo-title {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.video-promo-title h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.video-promo-container {
+  width: 100%;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-promo-content {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 768px) {
+  .video-promo {
+    width: 90vw;
+  }
+
+  .video-promo-title h3 {
+    font-size: 1.5rem;
+  }
+
+  .video-promo-content {
+    width: 100%;
+  }
+}

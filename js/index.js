@@ -1,3 +1,6 @@
 import './components/nav-bar.js'
 import './components/banner.js'
 import './components/promo.js'
+import './components/video-promo.js'
+import './components/service-view.js'
+import './components/footer.js'
