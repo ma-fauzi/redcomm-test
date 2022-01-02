@@ -11,4 +11,4 @@ Untuk menjalankan aplikasi ini terdapat dua cara :
 
 ## Menggunakan Link
 
-[Aplikasi dapat langsung dicoba dengan membuka link, ](https://redcomm-test.vercel.app/)
+Aplikasi dapat langsung dicoba dengan membuka [link berikut.](https://redcomm-test.vercel.app/)
